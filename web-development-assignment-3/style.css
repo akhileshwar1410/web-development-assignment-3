@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7dffa4;
+}
+button{
+    background-color: rgb(229, 255, 0);
+    
+    color: #000000;
+    height: 70px;
+    width: 220px;
+    font-family: 'Barlow', sans-serif;
+    font-size: large;
+    box-shadow: 0 1px 3px rgb(212, 42, 65),
+                0 1px 4px rgb(56, 56, 114),
+                0 1px 5px rgb(29, 29, 37);
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 400ms;
+}
